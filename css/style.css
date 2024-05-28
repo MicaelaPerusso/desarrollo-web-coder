@@ -231,10 +231,9 @@ height: 100%;}
                 flex-direction: column;
                 align-items: center;}
         .portada {height: 22rem;}
+}
 
 
 /* Desktop */
 @media only screen and (min-width: 992px){
-        
-
-}
+        }
