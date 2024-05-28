@@ -190,7 +190,13 @@ margin-right: 10%;}
         margin-top: 10%;
         justify-items: center;}
 
-.asistencia {margin-right: 38%;
-margin-left: 38%;
+.grid-item-fiesta-1 {grid-column: 1/2;
+        }
+.grid-item-fiesta-2 {grid-column: 2/3;
+        }   
+
+.card-container-3-cards{display: flex;
+        flex-direction: column;
+        align-items: center;
 margin-bottom: 5rem;}
 
