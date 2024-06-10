@@ -50,7 +50,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   margin: 2rem;
   text-align: center;
 }
-.titulo-y-subtitulo h2 {
+.titulo-y-subtitulo .fecha {
   font-family: "Lora", serif;
   margin: 2rem 2rem;
   padding: 20px;
@@ -376,8 +376,6 @@ footer p {
   width: 500px;
 }
 
-/* Media Query */
-/* Mobile */
 @media only screen and (max-width: 500px) {
   .grid-container {
     display: flex;
@@ -415,20 +413,9 @@ footer p {
     align-items: center;
   }
 }
-/* Tablet */
 @media only screen and (min-width: 501px) and (max-width: 991px) {
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .titulo-y-subtitulo .portada {
     height: 22rem;
-  }
-  .grid-container-fiesta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .img-mapa {
     width: 500px;
@@ -439,18 +426,7 @@ footer p {
   .QR {
     width: 400px;
   }
-  .flex-container-centrar .grid-container-fiesta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .grid-container-historia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
-/* Desktop */
 @media only screen and (min-width: 992px) {
   .icono {
     width: 500px;
