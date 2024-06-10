@@ -5,28 +5,18 @@
         margin-bottom: 5%;
         margin-top: 10%;
         justify-items: center;
-        .card {border-style: none !important;
-        display: flex !important;
-        justify-items: center !important;
-        width: 18rem;
-        .card-img-top {margin-bottom: 0px;}
-        .card-body {display: flex;
-            flex-direction: column;
-            align-items: center;}
-        .card-title {margin-bottom: 2rem !important;
-            text-align: center;}
-        .card-text {margin-bottom: 2rem !important;
-            text-align: center;}
+        .card {@extend .card}
+        .card-img-top { @extend .card-img-top;}
+        .card-body { @extend .card-body;}
+        .card-title {@extend .card-tittle;}
+        .card-text {@extend .card-text;}
     }
-}
 
 .mapa {display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    .boton {background-color: #1F467F;
-        border-color: #1F467F;
-        font-family: "Lora", serif;
+    .boton {@extend .btn;
         padding: 10px;
         border-radius: 5px;
         text-decoration: none;
@@ -34,7 +24,7 @@
         color: white;}
 }
 
-.flex-container-centrar{display: flex;
+.flex-container-centrar {display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
@@ -48,9 +38,7 @@
         align-items: center;}
         .card-title {margin-bottom: 2rem !important;
         text-align: center;}
-        .card-text {margin-bottom: 2rem !important;
-        text-align: center;}
-        .btn {background-color: #1F467F !important;
-        border-color: #1F467F !important;}
+        .card-text {@extend .card-title;}
+        .btn {@extend .btn;}
     }
 }

@@ -1,18 +1,18 @@
 header{
-    .navbar{background-color: #87AED5 !important;
-         .navbar-expand-lg {background-color: #87AED5 !important;}
+    .navbar{background-color: $color-celeste !important;
+         .navbar-expand-lg {background-color: $color-celeste !important;}
         .container-fluid {
-            background-color: #87AED5 !important;
-            .navbar-brand {background-color: #87AED5 !important;}
+            background-color: $color-celeste !important;
+            .navbar-brand {background-color: $color-celeste !important;}
             .navbar-toggler {
-                .navbar-toggler-icon {color:#1F467F;}
+                .navbar-toggler-icon {color:$color-azul;}
             }
             
         }
-        .collapse {background-color: #87AED5 !important;}
-        .navbar-collapse { background-color: #87AED5 !important;
-            .navbar-nav { background-color: #87AED5 !important;
-                .nav-item {color: #1F467F !important;
+        .collapse {background-color: $color-celeste !important;}
+        .navbar-collapse { background-color: $color-celeste !important;
+            .navbar-nav { background-color: $color-celeste !important;
+                .nav-item {color: $color-azul!important;
                     .active {color: white !important}
             }
             }

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     h1 { font-family: "WindSong", cursive;
-    color:#1F467F;
+    color:$color-azul;
     padding: 20px;
     margin: 2rem;
     text-align: center;}
@@ -16,8 +16,8 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
-    .boton {background-color: #1F467F;
-        border-color: #1F467F;
+    .boton {background-color: $color-azul;
+        border-color: $color-azul;
         font-family: "Lora", serif;
         padding: 10px;
         border-radius: 5px;

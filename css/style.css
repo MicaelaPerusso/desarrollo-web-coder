@@ -180,11 +180,7 @@ footer p {
   flex-direction: column;
   align-items: center;
 }
-.grid-container .card-title {
-  margin-bottom: 2rem !important;
-  text-align: center;
-}
-.grid-container .card-text {
+.grid-container .card-title, .grid-container .card-text {
   margin-bottom: 2rem !important;
   text-align: center;
 }
@@ -276,7 +272,7 @@ footer p {
   flex-direction: column;
   align-items: center;
 }
-.grid-container-fiesta .card .card-title {
+.grid-container-fiesta .card .card-title, .grid-container-fiesta .card .grid-container .card-text, .grid-container .grid-container-fiesta .card .card-text {
   margin-bottom: 2rem !important;
   text-align: center;
 }
@@ -322,7 +318,7 @@ footer p {
   flex-direction: column;
   align-items: center;
 }
-.flex-container-centrar .card .card-title {
+.flex-container-centrar .card .card-title, .flex-container-centrar .card .grid-container .card-text, .grid-container .flex-container-centrar .card .card-text {
   margin-bottom: 2rem !important;
   text-align: center;
 }

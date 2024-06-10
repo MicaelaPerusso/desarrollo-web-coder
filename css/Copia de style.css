@@ -38,7 +38,8 @@ h1 {
         margin: 2rem;
         text-align: center;}
 
-h2 {margin: 2rem 2rem;
+h2 {font-family: "Lora", serif;
+        margin: 2rem 2rem;
         padding: 20px;
         color:#1F467F;
         text-align: center;}
