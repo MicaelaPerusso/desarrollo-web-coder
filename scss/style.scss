@@ -1,14 +1,366 @@
 $color-azul: #1F467F;
 $color-celeste: #87AED5;
 
-@import "/scss/base/reset";
-@import "/scss/mediaqueries/mediaqueries";
-@import "/scss/base/fonts";
-@import "/scss/layout/header";
-@import "/scss/layout/footer";
-@import "/scss/layout/titulopantalla";
-@import "/scss/layout/cardsinicio";
-@import "/scss/layout/grilladefotos";
-@import "/scss/layout/cardsfiesta";
-@import "/scss/layout/confirmarasistencia";
-@import "/scss/layout/contenidoalbum";
+//base//
+* {margin: 0px;
+    padding: 0px}
+
+//header//
+header{
+    .navbar{background-color: $color-celeste !important;
+         .navbar-expand-lg {background-color: $color-celeste !important;}
+        .container-fluid {
+            background-color: $color-celeste !important;
+            .navbar-brand {background-color: $color-celeste !important;}
+            .navbar-toggler {
+                .navbar-toggler-icon {color:$color-azul;}
+            }
+            
+        }
+        .collapse {background-color: $color-celeste !important;}
+        .navbar-collapse { background-color: $color-celeste !important;
+            .navbar-nav { background-color: $color-celeste !important;
+                .nav-item {color: $color-azul!important;
+                    .active {color: white !important}
+            }
+            }
+        }
+   
+    }
+}
+
+//titulopantalla//
+.titulo-y-subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.portada {height: 40rem;
+    margin-bottom: 50px;}
+h1 { font-family: "WindSong", cursive;
+    color:$color-azul;
+    padding: 20px;
+    margin: 2rem;
+    text-align: center;}
+h2 {font-family: "Lora", serif;
+    margin: 2rem 2rem;
+    padding: 20px;
+    color:$color-azul;
+    text-align: center;}
+h3 {font-family: "WindSong", cursive;
+    color:$color-azul !important;
+    font-size: x-large;
+    text-align: center;}
+}
+
+
+//cards inicio//
+
+.grid-container { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    justify-items: center;
+    .grid-items {border-style: none !important;
+        display: flex !important;
+        justify-items: center !important;
+        width: 18rem;}
+    .card-img-top  {margin-bottom: 0px;}
+    .card-body {display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .tt-card {margin-bottom: 2rem !important;
+            text-align: center;
+            font-family: "WindSong", cursive !important;
+            color: $color-azul;
+            font-size: x-large;
+            text-align: center;
+        }
+    .t-card {margin-bottom: 2rem !important;
+        text-align: center;
+        color: $color-azul;
+        font-size: medium;
+        text-align: center;
+        font-family: "Lora", serif !important;}
+    .btn {background-color: $color-azul !important;
+        border-color: $color-azul !important;
+        font-family: "Lora", serif;
+    }
+    .grid-item-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 18rem;}
+    .grid-item-2 {grid-column: 2/3;
+        grid-row: 1/2;
+        width: 18rem}
+    .grid-item-3 {grid-column: 1/2;
+        grid-row: 2/3;
+        width: 18rem}
+    .grid-item-4 {grid-column: 2/3;
+        grid-row: 2/3;
+        width: 18rem}
+}
+
+//footer//
+
+footer {background-color: $color-celeste;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p { font-family: "Lora", serif;
+        color:$color-azul;
+       margin: 0px;
+       text-align: center;}
+}
+
+//grilla historia//
+
+.grid-container-historia {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    .grid-item-historia1 {grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;}
+    .grid-item-historia2 {grid-column: 2/3;
+        grid-row: 1/2;
+        width: 100%;}
+    .grid-item-historia3 {grid-column: 3/4;
+        grid-row: 1/2;
+        width: 100%;}
+    .grid-item-historia4 {grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;}
+    .grid-item-historia5 {grid-column: 2/3;
+        grid-row: 2/3;
+        width: 100%;}
+    .grid-item-historia6 {grid-column: 3/4;
+        grid-row: 2/3;
+        width: 100%;}
+}
+
+//parrafos//
+
+.parrafo {margin-left: 10%;
+    margin-right: 10%;}
+
+//cards fiesta //
+
+.grid-container-fiesta {display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    justify-items: center;
+    .card {border-style: none !important;
+        display: flex !important;
+        justify-items: center !important;
+        width: 18rem;}
+        .card-img-top { @extend .card-img-top;}
+        .card-body { @extend .card-body;}
+        .tt-card {margin-bottom: 2rem !important;
+        text-align: center;
+        font-family: "WindSong", cursive !important;
+        color: $color-azul;
+        font-size: x-large;
+        text-align: center;}
+        .t-card {margin-bottom: 2rem !important;
+        text-align: center;
+        color: $color-azul;
+        font-size: medium;
+        text-align: center;
+        font-family: "Lora", serif !important;}
+}
+
+.mapa {display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 3rem;
+
+.boton {background-color: $color-azul !important;
+    border-color: $color-azul !important;
+    font-family: "Lora", serif;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 2rem;
+    color: white;}
+}
+
+.flex-container-centrar {display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 5rem;
+    .grid-container-fiesta{display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        justify-items: center;
+        .card {border-style: none !important;
+            display: flex !important;
+            justify-items: center !important;
+            width: 18rem;
+            .card-img-top { @extend .card-img-top;}
+            .card-body { @extend .card-body;}
+            .tt-card {margin-bottom: 2rem !important;
+            text-align: center;
+            font-family: "WindSong", cursive !important;
+            color: $color-azul;
+            font-size: x-large;
+            text-align: center;}
+            .t-card {margin-bottom: 2rem !important;
+            text-align: center;
+            color: $color-azul;
+            font-size: medium;
+            text-align: center;
+            font-family: "Lora", serif !important;}
+            }
+        }
+    .card-final{ border-style: none !important;
+        display: flex !important;
+        justify-items: center !important;
+        width: 18rem;
+            .card-img-top { @extend .card-img-top;}
+            .card-body { @extend .card-body;
+                .btn {background-color: $color-azul !important;
+                    border-color: $color-azul !important;
+                    font-family: "Lora", serif;}  }
+            .tt-card {margin-bottom: 2rem !important;
+        text-align: center;
+        font-family: "WindSong", cursive !important;
+        color: $color-azul;
+        font-size: x-large;
+        text-align: center;}
+            .t-card {margin-bottom: 2rem !important;
+        text-align: center;
+        color: $color-azul;
+        font-size: medium;
+        text-align: center;
+        font-family: "Lora", serif !important;}           
+    }
+}
+   
+
+// formulario //
+.form{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+.input{border-color: $color-azul;
+    border-radius: 5px;
+    width: 280px;
+    margin: 0.5rem;
+    font-family: "Lora", serif;
+    padding-left: 2%;}
+.boton-form{background-color: $color-azul;
+        border-color: $color-azul;
+        font-family: "Lora", serif;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 1rem;
+        color: white;
+        margin-bottom: 3rem;}
+}
+
+//contenido album//
+.titulo-y-subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 { font-family: "WindSong", cursive;
+    color:$color-azul;
+    padding: 20px;
+    margin: 2rem;
+    text-align: center;}
+    .icono {width: 500px;}
+    .parrafo {margin-left: 10%;
+        margin-right: 10%;}
+}
+
+.flex-container-centrar{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    .boton {background-color: $color-azul;
+        border-color: $color-azul;
+        font-family: "Lora", serif;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 2rem;
+        color: white}
+    .margen-boton {margin-bottom: 3rem;}
+    .parrafo {margin-left: 10%;
+        margin-right: 10%;}
+    .QR {width: 500px;}
+}
+
+/* Media Query */
+
+/* Mobile */
+@media only screen and (max-width: 500px) {
+    .grid-container {display: flex;
+            flex-direction: column;
+            align-items: center;}
+    .titulo-y-subtitulo{
+        .portada {height: 15rem;}
+    }
+    .grid-container-fiesta {display: flex;
+            flex-direction: column;
+            align-items: center;}
+    .img-mapa {width: 300px;
+    }
+    .input {width: 280px;}
+    .icono {width: 300px;}
+    .QR {width: 300px;}
+    .flex-container-centrar {
+        .grid-container-fiesta{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    }
+    .grid-container-historia {display: flex;
+        flex-direction: column;
+        align-items: center;}
+}
+
+/* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 991px) {
+    .grid-container {display: flex;
+            flex-direction: column;
+            align-items: center;}
+    .titulo-y-subtitulo{
+                .portada {height: 22rem;}
+            }
+    .grid-container-fiesta {display: flex;
+            flex-direction: column;
+            align-items: center;}
+    .img-mapa {width: 500px;}
+    .icono {width: 400px;}
+    .QR {width: 400px;}
+    .flex-container-centrar {
+        .grid-container-fiesta{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    }
+    .grid-container-historia {display: flex;
+        flex-direction: column;
+        align-items: center;}
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 992px){
+    .icono {width: 500px;}
+    }
