@@ -1,0 +1,31 @@
+.titulo-y-subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 { font-family: "WindSong", cursive;
+    color:#1F467F;
+    padding: 20px;
+    margin: 2rem;
+    text-align: center;}
+    .icono {width: 500px;}
+    .parrafo {margin-left: 10%;
+        margin-right: 10%;}
+}
+
+.flex-container-centrar{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    .boton {background-color: #1F467F;
+        border-color: #1F467F;
+        font-family: "Lora", serif;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 2rem;
+        color: white}
+    .margen-boton {margin-bottom: 3rem;}
+    .parrafo {margin-left: 10%;
+        margin-right: 10%;}
+    .QR {width: 500px;}
+}

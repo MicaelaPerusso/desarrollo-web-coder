@@ -1,0 +1,23 @@
+.parrafo{margin-left: 10%;
+    margin-right: 10%;}
+
+.form{Display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    .input{border-color: #1F467F;
+        border-radius: 5px;
+        width: 280px;
+        margin: 0.5rem;
+        font-family: "Lora", serif;
+        padding-left: 2%;}
+    .boton-form{background-color: #1F467F;
+            border-color: #1F467F;
+            font-family: "Lora", serif;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 1rem;
+            color: white;
+            margin-bottom: 3rem;}
+}

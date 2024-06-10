@@ -1,0 +1,22 @@
+header{
+    .navbar{background-color: #87AED5 !important;
+         .navbar-expand-lg {background-color: #87AED5 !important;}
+        .container-fluid {
+            background-color: #87AED5 !important;
+            .navbar-brand {background-color: #87AED5 !important;}
+            .navbar-toggler {
+                .navbar-toggler-icon {color:#1F467F;}
+            }
+            
+        }
+        .collapse {background-color: #87AED5 !important;}
+        .navbar-collapse { background-color: #87AED5 !important;
+            .navbar-nav { background-color: #87AED5 !important;
+                .nav-item {color: #1F467F !important;
+                    .active {color: white !important}
+            }
+            }
+        }
+   
+    }
+}
