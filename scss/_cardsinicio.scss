@@ -4,32 +4,32 @@
     grid-template-rows: repeat(2, 1fr);
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 20%;
-    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     justify-items: center;
-    .grid-items {border-style: none !important;
-        display: flex !important;
-        justify-items: center !important;
+    .grid-items {border-style: none;
+        display: flex;
+        justify-items: center;
         width: 18rem;}
     .card-img-top  {margin-bottom: 0px;}
     .card-body {display: flex;
         flex-direction: column;
         align-items: center;}
-    .tt-card {margin-bottom: 2rem !important;
+    .tt-card {margin-bottom: 2rem;
             text-align: center;
-            font-family: "WindSong", cursive !important;
+            font-family: "WindSong", cursive;
             color: $color-azul;
             font-size: x-large;
             text-align: center;
         }
-    .t-card {margin-bottom: 2rem !important;
+    .t-card {margin-bottom: 2rem;
         text-align: center;
         color: $color-azul;
         font-size: medium;
         text-align: center;
-        font-family: "Lora", serif !important;}
-    .btn {background-color: $color-azul !important;
-        border-color: $color-azul !important;
+        font-family: "Lora", serif;}
+    .btn {background-color: $color-azul;
+        border-color: $color-azul;
         font-family: "Lora", serif;
     }
     .grid-item-1{
