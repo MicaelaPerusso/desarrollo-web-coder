@@ -2,48 +2,76 @@
 
 // Mobile //
 @media only screen and (max-width: 500px) {
-    .grid-container {display: flex;
-            flex-direction: column;
-            align-items: center;}
-    .titulo-y-subtitulo{
-        .portada {height: 15rem;}
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .grid-container-fiesta {display: flex;
-            flex-direction: column;
-            align-items: center;}
-    .img-mapa {width: 300px;
+    .titulo-y-subtitulo {
+        .portada {
+            height: 15rem;
+        }
     }
-    .icono {width: 300px;}
-    .qr {width: 300px;}
+    .grid-container-fiesta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-mapa {
+        width: 300px;
+    }
+    .icono {
+        width: 300px;
+    }
+    .qr {
+        width: 300px;
+    }
     .flex-container-centrar {
-        .grid-container-fiesta{display: flex;
-        flex-direction: column;
-        align-items: center;}
+        .grid-container-fiesta{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
-    .grid-container-historia {display: flex;
+    .grid-container-historia {
+        display: flex;
         flex-direction: column;
-        align-items: center;}
+        align-items: center;
+    }
 }
 
 // Tablet //
 @media only screen and (min-width: 501px) and (max-width: 991px) {
-        .grid-container {display: flex;
-                flex-direction: column;
-                align-items: center;}
-    .titulo-y-subtitulo{
-                .portada {height: 22rem;}
-            }
-    .img-mapa {width: 500px;}
-    .icono {width: 400px;}
-    .qr {width: 400px;}
-    .grid-container-fiesta {display: flex;
+    .grid-container {
+        display: flex;
         flex-direction: column;
-        align-items: center;}
-        }
+        align-items: center;
+    }
+    .titulo-y-subtitulo{
+        .portada {height: 22rem;}
+    }
+    .img-mapa {
+        width: 500px;
+    }
+    .icono {
+        width: 400px;
+    }
+    .qr {
+        width: 400px;
+    }
+    .grid-container-fiesta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 // Desktop //
 @media only screen and (min-width: 992px){
-    .icono {width: 500px;}
+    .icono {
+        width: 500px;
     }
     .qr {width: 500px;}
+}
+    
