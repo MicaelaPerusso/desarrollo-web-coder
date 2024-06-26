@@ -27,25 +27,25 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/nuestrahistoria.html">Nuestra historia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/fiesta.html">Fiesta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/confirmarasistencia.html">Confirmar asistencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./html/album.html">Álbum</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/nuestrahistoria.html">Nuestra historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/fiesta.html">Fiesta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/confirmarasistencia.html">Confirmar asistencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./html/album.html">Álbum</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -86,7 +86,16 @@
         <div class="card-body">
           <h4 class="card-title tt-card">¿Querés hacernos un regalo?</h4>
           <p class="card-text t-card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="" class="btn btn-primary">Ver datos bancarios</a>
+          <p class="d-inline-flex gap-1">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Ver datos bancarios
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Alias: BODA.MICA.MATI
+            </div>
+          </div>
         </div>
       </div>
     </section>
