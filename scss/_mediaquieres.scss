@@ -13,9 +13,8 @@
             align-items: center;}
     .img-mapa {width: 300px;
     }
-    .input {width: 280px;}
     .icono {width: 300px;}
-    .QR {width: 300px;}
+    .qr {width: 300px;}
     .flex-container-centrar {
         .grid-container-fiesta{display: flex;
         flex-direction: column;
@@ -28,12 +27,18 @@
 
 // Tablet //
 @media only screen and (min-width: 501px) and (max-width: 991px) {
+        .grid-container {display: flex;
+                flex-direction: column;
+                align-items: center;}
     .titulo-y-subtitulo{
                 .portada {height: 22rem;}
             }
     .img-mapa {width: 500px;}
     .icono {width: 400px;}
-    .QR {width: 400px;}
+    .qr {width: 400px;}
+    .grid-container-fiesta {display: flex;
+        flex-direction: column;
+        align-items: center;}
         }
 
 
@@ -41,3 +46,4 @@
 @media only screen and (min-width: 992px){
     .icono {width: 500px;}
     }
+    .qr {width: 500px;}

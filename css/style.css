@@ -6,31 +6,16 @@
 header .navbar {
   background-color: #87AED5 !important;
 }
-header .navbar .navbar-expand-lg {
-  background-color: #87AED5 !important;
-}
-header .navbar .container-fluid {
-  background-color: #87AED5 !important;
-}
-header .navbar .container-fluid .navbar-brand {
-  background-color: #87AED5 !important;
+header .navbar .container-fluid .navbar-toggler {
+  color: #1F467F;
 }
 header .navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
   color: #1F467F;
 }
-header .navbar .collapse {
-  background-color: #87AED5 !important;
-}
-header .navbar .navbar-collapse {
-  background-color: #87AED5 !important;
-}
-header .navbar .navbar-collapse .navbar-nav {
-  background-color: #87AED5 !important;
-}
-header .navbar .navbar-collapse .navbar-nav .nav-item {
+header .navbar .navbar-nav .nav-item {
   color: #1F467F !important;
 }
-header .navbar .navbar-collapse .navbar-nav .nav-item .active {
+header .navbar .navbar-nav .nav-item .active {
   color: white !important;
 }
 
@@ -91,41 +76,6 @@ footer p {
   margin-top: 5%;
   justify-items: center;
 }
-.grid-container .grid-items {
-  border-style: none;
-  display: flex;
-  justify-items: center;
-  width: 18rem;
-}
-.grid-container .card-img-top {
-  margin-bottom: 0px;
-}
-.grid-container .card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.grid-container .tt-card {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-family: "WindSong", cursive;
-  color: #1F467F;
-  font-size: x-large;
-  text-align: center;
-}
-.grid-container .t-card {
-  margin-bottom: 2rem;
-  text-align: center;
-  color: #1F467F;
-  font-size: medium;
-  text-align: center;
-  font-family: "Lora", serif;
-}
-.grid-container .btn {
-  background-color: #1F467F;
-  border-color: #1F467F;
-  font-family: "Lora", serif;
-}
 .grid-container .grid-item-1 {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -144,6 +94,13 @@ footer p {
 .grid-container .grid-item-4 {
   grid-column: 2/3;
   grid-row: 2/3;
+  width: 18rem;
+}
+
+.grid-items {
+  border-style: none;
+  display: flex;
+  justify-items: center;
   width: 18rem;
 }
 
@@ -198,7 +155,8 @@ footer p {
   align-items: center;
   margin-top: 3rem;
 }
-.mapa .boton {
+
+.boton {
   background-color: #1F467F !important;
   border-color: #1F467F !important;
   font-family: "Lora", serif;
@@ -218,21 +176,24 @@ footer p {
   margin-top: 10%;
   justify-items: center;
 }
-.grid-container-fiesta .grid-items {
-  border-style: none;
-  display: flex;
-  justify-items: center;
-  width: 18rem;
+.grid-container-fiesta .grid-item-fiesta-1 {
+  grid-column: 1/2;
 }
-.grid-container-fiesta .card-img-top {
+.grid-container-fiesta .grid-item-fiesta-2 {
+  grid-column: 2/3;
+}
+
+.card-img-top {
   margin-bottom: 0px;
 }
-.grid-container-fiesta .card-body {
+
+.card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.grid-container-fiesta .tt-card {
+
+.tt-card {
   margin-bottom: 2rem;
   text-align: center;
   font-family: "WindSong", cursive;
@@ -240,7 +201,8 @@ footer p {
   font-size: x-large;
   text-align: center;
 }
-.grid-container-fiesta .t-card {
+
+.t-card {
   margin-bottom: 2rem;
   text-align: center;
   color: #1F467F;
@@ -248,16 +210,11 @@ footer p {
   text-align: center;
   font-family: "Lora", serif;
 }
-.grid-container-fiesta .btn {
+
+.btn {
   background-color: #1F467F;
   border-color: #1F467F;
   font-family: "Lora", serif;
-}
-.grid-container-fiesta .grid-item-fiesta-1 {
-  grid-column: 1/2;
-}
-.grid-container-fiesta .grid-item-fiesta-2 {
-  grid-column: 2/3;
 }
 
 .flex-container-centrar {
@@ -272,50 +229,8 @@ footer p {
   justify-items: center;
   width: 18rem;
 }
-.flex-container-centrar .card-final .card-img-top {
-  margin-bottom: 0px;
-}
-.flex-container-centrar .card-final .card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.flex-container-centrar .card-final .tt-card {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-family: "WindSong", cursive;
-  color: #1F467F;
-  font-size: x-large;
-  text-align: center;
-}
-.flex-container-centrar .card-final .t-card {
-  margin-bottom: 2rem;
-  text-align: center;
-  color: #1F467F;
-  font-size: medium;
-  text-align: center;
-  font-family: "Lora", serif;
-}
-.flex-container-centrar .card-final .btn {
-  background-color: #1F467F;
-  border-color: #1F467F;
-  font-family: "Lora", serif;
-}
-.flex-container-centrar .boton {
-  background-color: #1F467F;
-  border-color: #1F467F;
-  font-family: "Lora", serif;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 2rem;
-  color: white;
-}
 .flex-container-centrar .margen-boton {
   margin-bottom: 3rem;
-}
-.flex-container-centrar .QR {
-  width: 500px;
 }
 
 .form {
@@ -361,13 +276,10 @@ footer p {
   .img-mapa {
     width: 300px;
   }
-  .input {
-    width: 280px;
-  }
   .icono {
     width: 300px;
   }
-  .QR {
+  .qr {
     width: 300px;
   }
   .flex-container-centrar .grid-container-fiesta {
@@ -382,6 +294,11 @@ footer p {
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 991px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .titulo-y-subtitulo .portada {
     height: 22rem;
   }
@@ -391,14 +308,22 @@ footer p {
   .icono {
     width: 400px;
   }
-  .QR {
+  .qr {
     width: 400px;
+  }
+  .grid-container-fiesta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 992px) {
   .icono {
     width: 500px;
   }
+}
+.qr {
+  width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,26 +1,18 @@
 header{
     .navbar{
             background-color: $color-celeste !important;
-            .navbar-expand-lg {background-color: $color-celeste !important;}
             .container-fluid {
-                background-color: $color-celeste !important;
-                .navbar-brand {background-color: $color-celeste !important;}
-                .navbar-toggler {
-                .navbar-toggler-icon {color:$color-azul;}
+                .navbar-toggler {color:$color-azul;
+                    .navbar-toggler-icon {color:$color-azul;}
                 }
             }
-        .collapse {background-color: $color-celeste !important;}
-        .navbar-collapse {
-            background-color: $color-celeste !important;
-            .navbar-nav { 
-                background-color: $color-celeste !important;
+            .navbar-nav {
                 .nav-item {color: $color-azul!important;
                 .active {color: white !important}
-                }
+            }
             }
         }
     }
-}
 
 footer {
     background-color: $color-celeste;
