@@ -132,9 +132,6 @@ footer p {
   justify-items: center;
   width: 18rem;
 }
-.flex-container-centrar .margen-boton {
-  margin-bottom: 3rem;
-}
 
 .grid-container-historia {
   display: grid;
@@ -199,6 +196,12 @@ footer p {
   color: white;
 }
 
+.btn {
+  background-color: #1F467F;
+  border-color: #1F467F;
+  font-family: "Lora", serif;
+}
+
 .card-img-top {
   margin-bottom: 0px;
 }
@@ -224,12 +227,6 @@ footer p {
   color: #1F467F;
   font-size: medium;
   text-align: center;
-  font-family: "Lora", serif;
-}
-
-.btn {
-  background-color: #1F467F;
-  border-color: #1F467F;
   font-family: "Lora", serif;
 }
 

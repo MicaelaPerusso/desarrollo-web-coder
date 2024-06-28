@@ -16,6 +16,11 @@
         color: white;
 }
 
+.btn {
+        background-color: $color-azul;
+        border-color: $color-azul;
+        font-family: "Lora", serif;
+}
 
 .card-img-top  {
     margin-bottom: 0px;
@@ -25,7 +30,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+}
 
 .tt-card {
         margin-bottom: 2rem;
@@ -34,7 +39,7 @@
         color: $color-azul;
         font-size: x-large;
         text-align: center;
-        }
+}
 
 .t-card {
         margin-bottom: 2rem;
@@ -43,11 +48,7 @@
         font-size: medium;
         text-align: center;
         font-family: "Lora", serif;
-    }
+}
 
-.btn {
-        background-color: $color-azul;
-        border-color: $color-azul;
-        font-family: "Lora", serif;
-    }
+
     
