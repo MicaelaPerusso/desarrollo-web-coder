@@ -14,12 +14,14 @@
         text-decoration: none;
         margin-top: 2rem;
         color: white;
+        &:hover {background-color: #2d5fa8 !important;}
 }
 
 .btn {
         background-color: $color-azul;
         border-color: $color-azul;
         font-family: "Lora", serif;
+        &:hover {background-color: #2d5fa8 !important;}
 }
 
 .card-img-top  {

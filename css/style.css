@@ -195,11 +195,17 @@ footer p {
   margin-top: 2rem;
   color: white;
 }
+.boton:hover {
+  background-color: #2d5fa8 !important;
+}
 
 .btn {
   background-color: #1F467F;
   border-color: #1F467F;
   font-family: "Lora", serif;
+}
+.btn:hover {
+  background-color: #2d5fa8 !important;
 }
 
 .card-img-top {
@@ -234,7 +240,8 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 .form .input {
   border-color: #1F467F;
@@ -243,17 +250,6 @@ footer p {
   margin: 0.5rem;
   font-family: "Lora", serif;
   padding-left: 2%;
-}
-.form .boton-form {
-  background-color: #1F467F;
-  border-color: #1F467F;
-  font-family: "Lora", serif;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 1rem;
-  color: white;
-  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -309,6 +305,11 @@ footer p {
     width: 400px;
   }
   .grid-container-fiesta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container-historia {
     display: flex;
     flex-direction: column;
     align-items: center;

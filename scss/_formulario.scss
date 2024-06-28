@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     .input {
         border-color: $color-azul;
         border-radius: 5px;
@@ -10,16 +11,5 @@
         margin: 0.5rem;
         font-family: "Lora", serif;
         padding-left: 2%;
-    }
-    .boton-form {
-        background-color: $color-azul;
-        border-color: $color-azul;
-        font-family: "Lora", serif;
-        padding: 10px;
-        border-radius: 5px;
-        text-decoration: none;
-        margin-top: 1rem;
-        color: white;
-        margin-bottom: 3rem;
     }
 }
