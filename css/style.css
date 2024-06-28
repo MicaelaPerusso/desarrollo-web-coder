@@ -132,6 +132,12 @@ footer p {
   justify-items: center;
   width: 18rem;
 }
+.flex-container-centrar .qr {
+  margin: 3rem;
+}
+.flex-container-centrar .boton-fotos {
+  margin-top: 4rem;
+}
 
 .grid-container-historia {
   display: grid;
