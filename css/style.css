@@ -236,12 +236,16 @@ footer p {
   font-family: "Lora", serif;
 }
 
+.icono {
+  margin-top: 0%;
+}
+
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 18rem;
 }
 .form .input {
   border-color: #1F467F;
